@@ -30,7 +30,6 @@
             position: relative;
         }
 
-        /* HEADER */
         header {
             display: flex;
             justify-content: space-between;
@@ -78,7 +77,6 @@
             background: #444;
         }
 
-        /* CONTENIDO */
         .main-content {
             flex: 1;
             display: flex;
@@ -93,7 +91,16 @@
         .title-image {
             max-width: 420px;
             width: 90%;
-            margin-bottom: 40px;
+            margin-bottom: 10px;
+        }
+
+        .discord-text {
+            text-align: center;
+            font-size: 17px;
+            letter-spacing: 2px;
+            color: #ff5c5c;
+            margin-bottom: 30px;
+            line-height: 1.5;
         }
 
         .server-box {
@@ -119,19 +126,6 @@
                 color: #fff;
             }
 
-            .server-box .hint {
-                font-size: 14px;
-                color: #ff4d4d;
-                margin-top: 10px;
-            }
-
-        .coming-soon {
-            font-size: 18px;
-            letter-spacing: 3px;
-            color: #777;
-            margin-bottom: 50px;
-        }
-
         .buttons {
             display: flex;
             justify-content: center;
@@ -156,7 +150,6 @@
                 box-shadow: 0 18px 40px rgba(255,0,0,0.85);
             }
 
-        /* LUCES */
         .light-top, .light-left, .light-right {
             position: absolute;
             filter: blur(50px);
@@ -223,9 +216,9 @@
     <header>
         <img src="img/logo.png" class="logo-left" alt="Logo Atron">
         <div class="socials-top">
-            <a href="https://www.tiktok.com/@atronservers?is_from_webapp=1&sender_device=pc" target="_blank" class="social-tiktok">TikTok</a>
-            <a href="https://youtube.com/@navajaa?si=JGOVhyCENetJmTJx" target="_blank" class="social-youtube">YouTube 1</a>
-            <a href="https://youtube.com/@elanleexx?si=DbdMhs1V67B-1KPR" target="_blank" class="social-youtube-alt">YouTube 2</a>
+            <a href="https://www.tiktok.com/@atronservers" target="_blank" class="social-tiktok">TikTok</a>
+            <a href="https://youtube.com/@navajaa" target="_blank" class="social-youtube">YouTube 1</a>
+            <a href="https://youtube.com/@elanleexx" target="_blank" class="social-youtube-alt">YouTube 2</a>
         </div>
     </header>
 
@@ -236,13 +229,15 @@
     <div class="main-content">
         <img src="img/atron-texto.png" class="title-image" alt="Atron">
 
-        <div class="server-box">
-            <div class="label">SERVIDOR DE HYTALE</div>
-            <div class="ip">PRÓXIMAMENTE</div>
-            <div class="hint">El servidor aún no está disponible</div>
+        <div class="discord-text">
+            UNIRSE A NUESTRO DISCORD<br>
+            PARA NUEVAS ACTUALIZACIONES
         </div>
 
-        <div class="coming-soon">ABRIMOS PRONTO</div>
+        <div class="server-box">
+            <div class="label">IP SERVIDOR</div>
+            <div class="ip">5.83.169.36:10500</div>
+        </div>
 
         <div class="buttons">
             <a href="galeria.html" class="btn">GALERÍA</a>
